@@ -1,0 +1,34 @@
+{
+    "doric": {
+        "prefix": "doric",
+        "body": [
+          "import { Panel, Group, vlayout, layoutConfig, Gravity, text, Text, Color, navbar, ViewModel, ViewHolder, VMPanel } from \"doric\";\n",
+          "interface $1Model {\n",
+          "}\n",
+          "class $1View extends ViewHolder {",
+          "\tbuild(root: Group) {\n",
+          "\t}",
+          "}\n",
+          "class $1VM extends ViewModel<$1Model, $1View> {",
+          "\tonAttached(s: $1Model, vh: $1View) {\n",
+          "\t}\n",
+          "\tonBind(s: $1Model, vh: $1View) {\n",
+          "\t}",
+          "}\n",
+          "@Entry",
+          "class $1Panel extends VMPanel<$1Model, $1View>{",
+          "\tgetViewHolderClass() {",
+          "\t\treturn $1View",
+          "\t}\n",
+          "\tgetViewModelClass() {",
+          "\t\treturn $1VM",  
+          "\t}\n",
+          "\tgetState(): $1Model {",
+          "\t\treturn {\n",   
+          "\t\t}",
+          "\t}",
+          "}"
+        ],
+        "description": "doric template"
+    }
+}
