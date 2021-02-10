@@ -16,7 +16,7 @@
           "\t}",
           "}\n",
           "@Entry",
-          "class $1Panel extends VMPanel<$1Model, $1View>{",
+          "class $1Panel extends VMPanel<$1Model, $1View> {",
           "\tgetViewHolderClass() {",
           "\t\treturn $1View",
           "\t}\n",

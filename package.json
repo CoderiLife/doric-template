@@ -3,9 +3,9 @@
   "displayName": "doric-template",
   "description": "doric template",
   "version": "0.0.1",
-  "publisher": "Doric-Template(小李飞刀)",
+  "publisher": "CoderiLife",
   "engines": {
-    "vscode": "^1.50.1"
+    "vscode": "^1.53.0"
   },
   "categories": [
     "Other"
@@ -16,10 +16,10 @@
   "main": "./src/extension.ts",
   "contributes": {
     "snippets": [
-        {
-          "language": "typescript",
-          "path": "./snippets/typescript.json"
-        }
+      {
+        "language": "typescript",
+        "path": "./snippets/typescript.json"
+      }
     ]
   },
   "scripts": {
